@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94298A6F1BB7A9C1003D3BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94298A6E1BB7A9C1003D3BEE /* main.m */; };
+		94298A721BB7A9C1003D3BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94298A711BB7A9C1003D3BEE /* AppDelegate.m */; };
+		94298A751BB7A9C1003D3BEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94298A741BB7A9C1003D3BEE /* ViewController.m */; };
+		94298A781BB7A9C1003D3BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94298A761BB7A9C1003D3BEE /* Main.storyboard */; };
+		94298A7A1BB7A9C1003D3BEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94298A791BB7A9C1003D3BEE /* Images.xcassets */; };
+		94298A7D1BB7A9C1003D3BEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94298A7B1BB7A9C1003D3BEE /* LaunchScreen.xib */; };
+		94298A891BB7A9C1003D3BEE /* UPPayPlugin_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94298A881BB7A9C1003D3BEE /* UPPayPlugin_DemoTests.m */; };
+		94298A941BB7B5A8003D3BEE /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94298A931BB7B5A8003D3BEE /* libUPPayPlugin.a */; };
+		94298A991BB7F1B8003D3BEE /* UPPayPluginC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94298A981BB7F1B8003D3BEE /* UPPayPluginC.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94298A831BB7A9C1003D3BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94298A611BB7A9C1003D3BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94298A681BB7A9C1003D3BEE;
+			remoteInfo = UPPayPlugin_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94298A691BB7A9C1003D3BEE /* UPPayPlugin_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPPayPlugin_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94298A6D1BB7A9C1003D3BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94298A6E1BB7A9C1003D3BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94298A701BB7A9C1003D3BEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94298A711BB7A9C1003D3BEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94298A731BB7A9C1003D3BEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94298A741BB7A9C1003D3BEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94298A771BB7A9C1003D3BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94298A791BB7A9C1003D3BEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94298A7C1BB7A9C1003D3BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94298A821BB7A9C1003D3BEE /* UPPayPlugin_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPPayPlugin_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94298A871BB7A9C1003D3BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94298A881BB7A9C1003D3BEE /* UPPayPlugin_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPPayPlugin_DemoTests.m; sourceTree = "<group>"; };
+		94298A931BB7B5A8003D3BEE /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPPayPlugin.a; sourceTree = "<group>"; };
+		94298A951BB7B5B3003D3BEE /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPlugin.h; sourceTree = "<group>"; };
+		94298A961BB7B5B3003D3BEE /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPluginDelegate.h; sourceTree = "<group>"; };
+		94298A971BB7F1B8003D3BEE /* UPPayPluginC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPluginC.h; sourceTree = "<group>"; };
+		94298A981BB7F1B8003D3BEE /* UPPayPluginC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UPPayPluginC.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94298A661BB7A9C1003D3BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94298A941BB7B5A8003D3BEE /* libUPPayPlugin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94298A7F1BB7A9C1003D3BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94298A601BB7A9C1003D3BEE = {
+			isa = PBXGroup;
+			children = (
+				94298A971BB7F1B8003D3BEE /* UPPayPluginC.h */,
+				94298A981BB7F1B8003D3BEE /* UPPayPluginC.mm */,
+				94298A6B1BB7A9C1003D3BEE /* UPPayPlugin_Demo */,
+				94298A851BB7A9C1003D3BEE /* UPPayPlugin_DemoTests */,
+				94298A6A1BB7A9C1003D3BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94298A6A1BB7A9C1003D3BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94298A691BB7A9C1003D3BEE /* UPPayPlugin_Demo.app */,
+				94298A821BB7A9C1003D3BEE /* UPPayPlugin_DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94298A6B1BB7A9C1003D3BEE /* UPPayPlugin_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				94298A921BB7B56E003D3BEE /* UPPayPlugin */,
+				94298A701BB7A9C1003D3BEE /* AppDelegate.h */,
+				94298A711BB7A9C1003D3BEE /* AppDelegate.m */,
+				94298A731BB7A9C1003D3BEE /* ViewController.h */,
+				94298A741BB7A9C1003D3BEE /* ViewController.m */,
+				94298A761BB7A9C1003D3BEE /* Main.storyboard */,
+				94298A791BB7A9C1003D3BEE /* Images.xcassets */,
+				94298A7B1BB7A9C1003D3BEE /* LaunchScreen.xib */,
+				94298A6C1BB7A9C1003D3BEE /* Supporting Files */,
+			);
+			path = UPPayPlugin_Demo;
+			sourceTree = "<group>";
+		};
+		94298A6C1BB7A9C1003D3BEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94298A6D1BB7A9C1003D3BEE /* Info.plist */,
+				94298A6E1BB7A9C1003D3BEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94298A851BB7A9C1003D3BEE /* UPPayPlugin_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				94298A881BB7A9C1003D3BEE /* UPPayPlugin_DemoTests.m */,
+				94298A861BB7A9C1003D3BEE /* Supporting Files */,
+			);
+			path = UPPayPlugin_DemoTests;
+			sourceTree = "<group>";
+		};
+		94298A861BB7A9C1003D3BEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94298A871BB7A9C1003D3BEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94298A921BB7B56E003D3BEE /* UPPayPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				94298A951BB7B5B3003D3BEE /* UPPayPlugin.h */,
+				94298A961BB7B5B3003D3BEE /* UPPayPluginDelegate.h */,
+				94298A931BB7B5A8003D3BEE /* libUPPayPlugin.a */,
+			);
+			name = UPPayPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94298A681BB7A9C1003D3BEE /* UPPayPlugin_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94298A8C1BB7A9C1003D3BEE /* Build configuration list for PBXNativeTarget "UPPayPlugin_Demo" */;
+			buildPhases = (
+				94298A651BB7A9C1003D3BEE /* Sources */,
+				94298A661BB7A9C1003D3BEE /* Frameworks */,
+				94298A671BB7A9C1003D3BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPPayPlugin_Demo;
+			productName = UPPayPlugin_Demo;
+			productReference = 94298A691BB7A9C1003D3BEE /* UPPayPlugin_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94298A811BB7A9C1003D3BEE /* UPPayPlugin_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94298A8F1BB7A9C1003D3BEE /* Build configuration list for PBXNativeTarget "UPPayPlugin_DemoTests" */;
+			buildPhases = (
+				94298A7E1BB7A9C1003D3BEE /* Sources */,
+				94298A7F1BB7A9C1003D3BEE /* Frameworks */,
+				94298A801BB7A9C1003D3BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94298A841BB7A9C1003D3BEE /* PBXTargetDependency */,
+			);
+			name = UPPayPlugin_DemoTests;
+			productName = UPPayPlugin_DemoTests;
+			productReference = 94298A821BB7A9C1003D3BEE /* UPPayPlugin_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94298A611BB7A9C1003D3BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Ryan;
+				TargetAttributes = {
+					94298A681BB7A9C1003D3BEE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					94298A811BB7A9C1003D3BEE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 94298A681BB7A9C1003D3BEE;
+					};
+				};
+			};
+			buildConfigurationList = 94298A641BB7A9C1003D3BEE /* Build configuration list for PBXProject "UPPayPlugin_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94298A601BB7A9C1003D3BEE;
+			productRefGroup = 94298A6A1BB7A9C1003D3BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94298A681BB7A9C1003D3BEE /* UPPayPlugin_Demo */,
+				94298A811BB7A9C1003D3BEE /* UPPayPlugin_DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94298A671BB7A9C1003D3BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94298A781BB7A9C1003D3BEE /* Main.storyboard in Resources */,
+				94298A7D1BB7A9C1003D3BEE /* LaunchScreen.xib in Resources */,
+				94298A7A1BB7A9C1003D3BEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94298A801BB7A9C1003D3BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94298A651BB7A9C1003D3BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94298A751BB7A9C1003D3BEE /* ViewController.m in Sources */,
+				94298A721BB7A9C1003D3BEE /* AppDelegate.m in Sources */,
+				94298A991BB7F1B8003D3BEE /* UPPayPluginC.mm in Sources */,
+				94298A6F1BB7A9C1003D3BEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94298A7E1BB7A9C1003D3BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94298A891BB7A9C1003D3BEE /* UPPayPlugin_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94298A841BB7A9C1003D3BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94298A681BB7A9C1003D3BEE /* UPPayPlugin_Demo */;
+			targetProxy = 94298A831BB7A9C1003D3BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94298A761BB7A9C1003D3BEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94298A771BB7A9C1003D3BEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94298A7B1BB7A9C1003D3BEE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94298A7C1BB7A9C1003D3BEE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94298A8A1BB7A9C1003D3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94298A8B1BB7A9C1003D3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94298A8D1BB7A9C1003D3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UPPayPlugin_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UPPayPlugin_Demo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94298A8E1BB7A9C1003D3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UPPayPlugin_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UPPayPlugin_Demo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94298A901BB7A9C1003D3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UPPayPlugin_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPPayPlugin_Demo.app/UPPayPlugin_Demo";
+			};
+			name = Debug;
+		};
+		94298A911BB7A9C1003D3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UPPayPlugin_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPPayPlugin_Demo.app/UPPayPlugin_Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94298A641BB7A9C1003D3BEE /* Build configuration list for PBXProject "UPPayPlugin_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94298A8A1BB7A9C1003D3BEE /* Debug */,
+				94298A8B1BB7A9C1003D3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94298A8C1BB7A9C1003D3BEE /* Build configuration list for PBXNativeTarget "UPPayPlugin_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94298A8D1BB7A9C1003D3BEE /* Debug */,
+				94298A8E1BB7A9C1003D3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94298A8F1BB7A9C1003D3BEE /* Build configuration list for PBXNativeTarget "UPPayPlugin_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94298A901BB7A9C1003D3BEE /* Debug */,
+				94298A911BB7A9C1003D3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94298A611BB7A9C1003D3BEE /* Project object */;
+}
